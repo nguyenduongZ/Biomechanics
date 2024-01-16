@@ -2,7 +2,7 @@ import cv2
 import json
 
 # Đọc ảnh từ đường dẫn
-image_path = r"path\.jgp"
+image_path = r"C:\Users\nguye\Downloads\NGU\9bb4438bc0026b5c3213.jpg"
 image = cv2.imread(image_path)
 
 # Tạo cửa sổ hiển thị ảnh
@@ -59,7 +59,7 @@ cv2.destroyAllWindows()
 #     print(f"Bounding Box {i + 1}: {rectangle}")
 
 # Lưu thông tin bounding boxes vào một tệp JSON
-output_file_path = r"path\bounding_boxes.json"
+output_file_path = r"C:\Users\nguye\Downloads\bounding_boxes.json"
 
 with open(output_file_path, 'w') as json_file:
     data = {'bounding_boxes': []}

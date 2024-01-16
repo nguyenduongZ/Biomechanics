@@ -1,0 +1,11 @@
+{
+    "bounding_boxes": [
+        {
+            "id": 1,
+            "x_min": 405,
+            "y_min": 562,
+            "x_max": 519,
+            "y_max": 601
+        }
+    ]
+}
